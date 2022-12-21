@@ -1,9 +1,9 @@
 # TEDS22_Project
 ## Introduction
 
-This repoistory contains the code for a project in the course Embedded and distributed AI at jönköking University.
+This repository contains the code for a project in the course Embedded and Distributed AI at Jönköking University.
 
-The aim of the project is to create a embedded AI application for object detection on an edge device. In this specific project we have choosen to work with an android device.
+The aim of the project is to create an embedded AI application for object detection on an edge device. In this specific project we have chosen to work with an android device.
 
 The project is done by the following students.
 * Emil Christoffersson
@@ -19,12 +19,12 @@ The app is simple to use. When the app is run for the first time, permissions fo
 
 ## Model 
 
-In this project, a compressed TensorFlow Lite (TFLite) version of MobileNetV1 in Android Studio to develop a mobile application was used.
+In this project, a compressed TensorFlow Lite (TFLite) version of MobileNetV1 was used in Android Studio to develop a mobile application.
 The efficient architecture and low computational requirements of MobileNetV1 allowed for the creation of a fast and responsive app.
 The goal of the project was to create a user-friendly app that could perform object detection tasks on a mobile device in real-time, utilizing the power of TFLite and MobileNetV1 to deliver high-quality results. 
 
 The model was trained on the Coco-SDD dataset. The dataset contains images of objects that are normally encountered in everyday life covering  11 superclasses and 91 distinct categories.
- The images are scenes or situations that contain these objects. The dataset contains 328,000 images with a total of 2.5 million labeled instances. 
+The images are scenes or situations that contain these objects. The dataset contains 328,000 images with a total of 2.5 million labeled instances. 
 
 ## Development
 Devlopment was done using Android studio 2021.3.1 Patch 1, using the following plugins and implementations:
